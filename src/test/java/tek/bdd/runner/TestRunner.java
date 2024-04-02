@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "classpath:features",
         glue = "tek.bdd.steps",
         dryRun = false,
-       tags = "@Story_2",
+       tags = "@CreateNewAccount",
        // tags = "@Story_2", // tag is a label or identifier that you can assign
         // to scenarios or features to categorize them. They are used to organize and filter Scenarios
         // or features when running tests. They also can be used to group related scenarios, mark certain
