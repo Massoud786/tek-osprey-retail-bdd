@@ -20,6 +20,7 @@ import org.junit.runner.RunWith;
                 "pretty", // pretty will print the step definitions on the console window
                 // It is not commonly used.
                 "html:target/test_report/passed_login_test/report.html",
+                "json:target/jsonReports/report.json"
         }
         //dryRun = false
         // "html:target/test_report/report.html" To create a report
